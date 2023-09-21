@@ -1,0 +1,16 @@
+.contenedor-flex {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+    
+.element-flex {
+    flex-basis: calc(25% - 20px); /* 25% de ancho con espacio entre elementos */
+    margin: 10px; /* Espacio entre elementos */
+    text-align: center; /* Alineación de contenido centrada */
+}
+
+.foto {
+    width: 6%;
+}
